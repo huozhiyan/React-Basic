@@ -1,27 +1,18 @@
-import { getImageUrl } from "./utils";
+import Avatar from "./Avatar";
 
-function Avatar({ person, size }) {
-  const defaultStyle = {
-    borderRadius: "50%",
-    padding: "5px",
+function Card({ children }) {
+  const cardStyle = {
+    padding: "20px",
+    borderRadius: "10px",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    backgroundColor: "#fff",
   };
-  return (
-    <>
-      <img
-        style={defaultStyle}
-        className="avatar"
-        src={getImageUrl(person)}
-        alt={person.name}
-        width={size}
-        height={size}
-      />
-    </>
-  );
+  return <div style={cardStyle}>{children}</div>;
 }
 
 export default function Profile() {
   return (
-    <div>
+    <Card>
       <Avatar
         size={100}
         person={{
@@ -43,6 +34,6 @@ export default function Profile() {
           imageId: "1bX5QH6",
         }}
       />
-    </div>
+    </Card>
   );
 }
