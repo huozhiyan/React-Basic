@@ -1,12 +1,12 @@
-import './App.css'
-import TodoList from './TodoList'
+import "./App.css";
+import Profile from "./Profile";
 
 function App() {
   return (
     <>
-      <TodoList></TodoList>
+      <Profile></Profile>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
