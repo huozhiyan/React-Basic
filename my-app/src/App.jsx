@@ -1,10 +1,15 @@
 import "./App.css";
-import List from "./RenderList.jsx";
+import FancyText from "./FancyText";
+import InspirationGenerator from "./InspirationGenerator";
+import Copyright from "./Copyright";
 
 function App() {
   return (
     <>
-      <List></List>
+      <FancyText title text="励志语录" />
+      <InspirationGenerator>
+        <Copyright year={2025} />
+      </InspirationGenerator>
     </>
   );
 }
