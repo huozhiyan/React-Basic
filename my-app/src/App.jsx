@@ -1,10 +1,10 @@
 import "./App.css";
-import Profile from "./Profile";
+import PackingList from "./PackingList";
 
 function App() {
   return (
     <>
-      <Profile></Profile>
+      <PackingList></PackingList>
     </>
   );
 }
