@@ -1,10 +1,10 @@
 import './App.css'
-import Profile from './Profile'
+import TodoList from './TodoList'
 
 function App() {
   return (
     <>
-      <Profile />
+      <TodoList></TodoList>
     </>
   )
 }
