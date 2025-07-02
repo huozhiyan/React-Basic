@@ -1,15 +1,13 @@
 import "./App.css";
-import FancyText from "./FancyText";
-import InspirationGenerator from "./InspirationGenerator";
-import Copyright from "./Copyright";
+import Toolbar from "./Toolbar";
 
 function App() {
   return (
     <>
-      <FancyText title text="励志语录" />
-      <InspirationGenerator>
-        <Copyright year={2025} />
-      </InspirationGenerator>
+      <Toolbar
+        onPlayMovie={() => alert("Playing")}
+        onUploadImage={() => alert("Uploading")}
+      ></Toolbar>
     </>
   );
 }
