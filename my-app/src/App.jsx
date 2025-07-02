@@ -1,13 +1,10 @@
 import "./App.css";
-import Toolbar from "./Toolbar";
+import Gallery from "./Gallery";
 
 function App() {
   return (
     <>
-      <Toolbar
-        onPlayMovie={() => alert("Playing")}
-        onUploadImage={() => alert("Uploading")}
-      ></Toolbar>
+      <Gallery></Gallery>
     </>
   );
 }
