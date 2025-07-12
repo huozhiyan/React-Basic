@@ -1,10 +1,10 @@
 import "./App.css";
-import Toolbar2 from "./Toolbar2";
+import Toolbar3 from "./Toolbar3";
 
 function App() {
   return (
     <>
-      <Toolbar2></Toolbar2>
+      <Toolbar3></Toolbar3>
     </>
   );
 }
