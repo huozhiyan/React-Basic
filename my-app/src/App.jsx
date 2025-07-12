@@ -1,10 +1,10 @@
 import "./App.css";
-import AlertButton from "./AlertButton";
+import Toolbar2 from "./Toolbar2";
 
 function App() {
   return (
     <>
-      <AlertButton></AlertButton>
+      <Toolbar2></Toolbar2>
     </>
   );
 }
