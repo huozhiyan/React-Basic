@@ -1,10 +1,10 @@
 import "./App.css";
-import Gallery from "./Gallery";
+import Button from "./Button";
 
 function App() {
   return (
     <>
-      <Gallery></Gallery>
+      <Button></Button>
     </>
   );
 }
